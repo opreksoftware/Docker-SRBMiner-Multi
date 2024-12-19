@@ -1,0 +1,14 @@
+---
+version: '2'
+services:
+# -------------------------------------------------------------------
+  srbminer:
+    tty: true
+    image: henkallsn/docker-srbminer-multi
+    environment:
+      ALGO: verushash
+      POOL_ADDRESS: stratum+tcp://us.vipor.net:5040
+      WALLET_USER: RVuAG4SKdeZQ2Po8o33LPrjNbm1HLKn87H
+      PASSWORD: x
+      EXTRAS:
+# -------------------------------------------------------------------
